@@ -1,0 +1,20 @@
+{
+  "name": "web-workers-essentials",
+  "version": "1.0.0",
+  "description": "jump  start web workers",
+  "main": "index.js",
+  "scripts": {
+    "dev": "browser-sync start --server --files 'index.html', 'src/*.js'"
+  },
+  "keywords": [
+    "web",
+    "workers",
+    "javascript"
+  ],
+  "author": "cindy",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2"
+  }
+}
